@@ -42,7 +42,7 @@ export async function ambilDaftarSiswa() {
  return hasilKueri;
 }
 
-export async function tambahSiswa(Nama) {
+export async function tambahnamabunga(Nama) {
   try {
     // menyimpan data ke firebase 
     const refDokumen = await addDoc(collection(basisdata, "Bunga"), {
